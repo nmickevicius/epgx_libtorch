@@ -3,7 +3,7 @@ from torch.utils.cpp_extension import BuildExtension, CUDAExtension
 import os
 
 # Ensure you point to the correct LibTorch path
-libtorch_path = os.getenv('LIBTORCH_PATH', '/Users/nmickevicius/dev/libtorch')
+libtorch_path = os.getenv('LIBTORCH_PATH', '/home/nikolai/dev/libtorch')
 
 setup(
     name='epgx_mt_gre',
